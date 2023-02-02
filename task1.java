@@ -1,3 +1,4 @@
+//Программа, которая выдаёт разницу во времени добавления элементов в LinkedList и ArrayList
 import java.util.ArrayList;
 import java.util.LinkedList;
 
