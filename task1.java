@@ -8,7 +8,7 @@ public class task1 {
         LinkedList<Integer> linList = new LinkedList<>();
         System.out.println(System.currentTimeMillis());
         long timeStart = System.currentTimeMillis();
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 1000000; i++) {
             arList.add(i);
         }
         long timeFinish = System.currentTimeMillis();
