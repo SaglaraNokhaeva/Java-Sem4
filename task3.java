@@ -10,19 +10,17 @@ public class task3 {
 
         Scanner scan = new Scanner(System.in);
         Stack<String> stack = new Stack<>();
-        String str = "";
-        Integer count=0;
+        String str = "";        
         while (!str.equals("print")) {
             System.out.println("Введите строку для ввода в стэк");
             str=scan.nextLine();
             if (!str.equals("print")) {
                 stack.push(str);
-                count++;
         }
     }
-    for (int i=0;i<count;i++){
-        System.out.println(stack.pop());
-    }
+    while (!stack.empty()){
+    System.out.println(stack.pop());
+}
     scan.close();
 }
 }
